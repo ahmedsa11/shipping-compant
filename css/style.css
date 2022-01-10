@@ -1,0 +1,333 @@
+.containerr{
+ width:1170px;
+margin: 10px auto;
+        padding: 10px 38px;
+    
+}
+.landing-page {
+  height: 550px;
+  background-image: url('../images/header.jpg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  
+}
+.landing-page .logo{
+    width:320px;
+    height: 200px;
+    background-image: url("../images/lo1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+body{
+  background-color: rgb(126,195,235);
+/*background: linear-gradient(180deg, rgba(126,195,235,1) 42%, rgba(255,255,255,1) 95%);*/
+   
+}
+#top {
+    background: url(../images/top.png) no-repeat;
+    height: 27px;
+    margin: 0 auto;
+    background-size: 100%;
+    width: 97%;
+    position: relative;
+}
+.clear{
+    clear:both;
+}
+#bg {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/c_bg.jpg) repeat-y center;
+    background-size: 100%;
+    
+}
+#in{
+    background: url(../images/in.png) repeat-y;
+    margin: 0px auto;
+    padding: 0 46px 0 26px;
+    position: relative;
+    z-index: 3;
+    background-size: 100%;
+    width: 97%
+}
+#b{
+    background: url(../images/b.png) no-repeat top;
+    height: 27px;
+    margin: 0 auto;
+    background-size: 100%;
+    width: 97%;
+
+}
+.steps {
+    position:relative;
+    
+    margin-top: 10px;
+}
+.steps h2{
+      color: #1076be;
+    font-weight: bold;
+}
+.clear{
+    clear:both;
+}
+/*---------------------------*/
+/*index*/
+select{
+    background-color: #fff;
+    color:#1076be;
+    margin-bottom: 15px; 
+}
+.pdf {
+  width: 100%;
+  height:100%;
+  background-color: #000;
+  background-image: url(../images/umzug.jpg);
+  position: relative;
+  animation: slider 20s  infinite ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+@keyframes slider {
+  0%{    background-image: url(../images/umzug.jpg);}
+  25%{   background-image: url(../images/umzug.jpg);}
+  50%{   background-image: url(../images/umzug.jpg);}
+  75%{   background-image: url(../images/umzug.jpg);}
+  100%{  background-image: url(../images/umzug.jpg);}
+}
+input {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    color:#1076be;
+}
+.s{
+    position:relative; 
+    float: left;
+    width: 150px;
+    margin-right: 50px;
+    padding: 3px;
+    
+}
+.add{
+    width: 80%;
+    padding: 3px;
+}
+.box{ position: relative;
+    width:100%;
+}
+.box span{
+        color: #1076be;font: 10px ;
+}
+label{
+    color: #1076be;
+    font-size: 20px; 
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+
+    
+}
+.te input{
+    position: relative;
+    border: solid 1px #1076be;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    width: 80%;
+    display: block;
+    margin-top: 50px
+}
+.te label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.de label{
+    position: relative;
+    font-size: 25px;
+}
+.de input{
+    display: inline-block;
+    border: solid 1px #1076be;
+    padding: 2px 4px 2px 4px;
+    border-radius: 4px;
+    width: 50%; 
+}
+.de select{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+.send input{
+    display: block;
+    width:50%;
+    margin-top: 40px
+}
+
+.send label{
+    font-size: 17px;
+    font-weight: bold;
+}
+.send select {
+    width: 50%;
+    margin-top: 40px;
+}
+.send input[type="submit"]{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+     color: #1076be;
+    background-color: #ddd;
+    transition: all .5s ease;
+
+}
+.send input[type="submit"]:hover{
+    color: white;
+    background-color:#1076be;
+}
+.scroller_bottom {
+    width: 520px;
+    height: 120px;
+    overflow: auto;
+    position: relative;
+    border: 0px solid black;
+}
+.box h3{
+    color: red;
+}
+/*----------------------------*/
+/*kontakt*/
+#preiswert{
+    position: relative;
+    top: 40px;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.log{
+    float: right;
+    position:relative;
+    bottom: 200px
+    
+}
+.log label{
+    color:white;
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.log .login{
+    text-decoration: none;
+    border: none;
+    position: relative;
+    top: 40px;
+     border-radius: 6px;
+    background-color: #ff611d;
+    color: aliceblue;
+     font-size: 20px;
+    padding: 5px 11px 6px 11px;
+    font-weight: bold;
+}
+.log .login:hover{
+    text-decoration:underline;
+     background-color: #ff773d;
+}
+.kont {
+    position: relative;
+    color: #1076be;
+    font-size: 20px;
+    height: 350px;
+}
+.kont p{
+    font-size: 15px;
+}
+.kont h4{
+    color: #ff611d;
+    font-family: Verdana, Geneva, sans-serif;
+}
+/*--------------------------*/
+/*log in*/
+.l label{
+    position:absolute;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+     margin-left: auto;
+}
+.l input{
+    position: relative;
+    display:block;
+    width: 200px;
+    margin:10px auto;
+}
+.l a {
+     position:relative;
+    text-align: center;
+    display: block;
+    
+}
+.l input[type="submit"]{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #1076be;
+    background-color: #ddd;
+    transition: all .5s ease;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color:#1076be;
+}
+/*Start Media query*/
+
+/*
+@media (min-width: 1200px) { .containerr{
+    width: ;
+    }  
+}
+@media (min-width: 1400px) { .containerr{
+    width: 100%;
+    } }
+@media (min-width: 992px) { .containerr{
+   width: 100%;
+    }  }
+@media (min-width: 768px) { .containerr{
+   width: 100%;
+    }  }
+@media (min-width: 576px) { .containerr{
+  width: 100%;
+    } }
+*/
+/*End Media query*/
+/*------------*/
+/*pagination*/
+
+.physicianList ul{margin: 0; padding: 0; list-style: none;}
+.physicianList ul li{display: inline-block; width: 100%; float: left; margin-right: 15px; margin-bottom: 15px;}
+.clear{
+    clear: both;
+}
+.physicianBox{
+
+}
+/*Pagination CSS*/
+#page_navigation {
+  clear:both;
+  margin: 20px auto;
+    width: 100%;
+}
+#page_navigation a{
+	padding:3px 6px;
+	border:1px solid #2e6da4;
+	margin:2px;
+	color:black;
+	text-decoration:none
+}
+.active_page{
+	background:#337ab7;
+	color:white !important;
+}

@@ -1,0 +1,22 @@
+.physicianList ul{margin: 0; padding: 0; list-style: none;}
+.physicianList ul li{display: inline-block; width: 100%; float: left; margin-right: 15px; margin-bottom: 15px;}
+.physicianBox{
+	position: relative;
+}
+.physicianModal .info p, .physicianModal .info .text-info{margin: 0;}
+/*Pagination CSS*/
+#page_navigation {
+  clear:both;
+  margin: 20px 0;
+}
+#page_navigation a{
+	padding:3px 6px;
+	border:1px solid #2e6da4;
+	margin:2px;
+	color:black;
+	text-decoration:none
+}
+.active_page{
+	background:#337ab7;
+	color:white !important;
+}

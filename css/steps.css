@@ -1,0 +1,314 @@
+@charset "utf-8";
+ .suggestion_list
+ {
+	background: white;
+	border: 1px solid;
+	padding: 4px;
+	font-family:"Arial", Arial;
+	font-size:9px;
+	color: #1076be;
+ }
+
+ .suggestion_list ul
+ {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+
+ .suggestion_list a
+ {
+ text-decoration: none;
+ color: black;
+ }
+
+ .suggestion_list .selected
+ {
+ background: navy;
+ color: white;
+ }
+
+ .suggestion_list .selected a
+ {
+ color: white;
+ }
+
+ #autosuggest
+ {
+ background-color:white;
+  font-family:"Arial", Arial;
+ font-size:12px;
+
+ }
+#suggest div {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#suggest div.select{ /* keydown, keyup */
+    color: #FFFFFF;
+    background-color: #3366FF;
+}
+#suggest div.over{ /* mouse over */
+    background-color: #99CCFF;
+}
+
+.Beschreibung_orange {
+	color: #ff611d;
+	font: bold normal 16px Verdana, Geneva, sans-serif;
+}
+.Beschreibung {
+	color: #1076be;
+	font: bold normal 16px Verdana, Geneva, sans-serif;
+}
+
+.Ueberschrift {
+	color: #ff611d;
+	font: bold 18px Verdana, Geneva, sans-serif;
+}
+.Ueberschrift a {
+	color: #1076be;
+	font: bold 18px Verdana, Geneva, sans-serif;
+	text-decoration: underline;
+}
+
+
+.PLZ {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+}
+
+.input {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	border: 1px solid #1076be;
+}
+
+.Feld {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	margin: 4px 0;
+}
+
+.Feld_01 {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:80px;
+	margin: 4px 0;
+	
+}
+
+.FeldDatum {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:110px;
+	margin: 4px 0;
+	
+}
+
+.FeldNameTel {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:160px;
+	margin: 4px 0;
+	
+}
+
+.FeldMail {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:300px;
+	margin: 4px 0;
+	
+}
+
+.preis {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:80px;
+	margin: 4px 0;
+	
+}
+
+.Auswahl {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width: 130px;
+	margin: 4px 0;
+}
+
+.Auswahl_Land {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width:55px;
+	height:22px;
+	margin: 4px 0;
+}
+
+.Auswahl1 {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width: 150px;
+	margin: 4px 0;
+}
+
+.AuswahlAnrede {
+	color: #1076be;
+	font: normal 16px Verdana, Geneva, sans-serif;
+	text-align: left;
+	border: 1px solid #1076be;
+	background-color:#FFF;
+	width: 80px;
+	margin: 4px 0;
+}
+
+.hiddenlink {
+  color: #000; /* same color as the surrounding text */
+  text-decoration: none; /* to remove the underline */
+  cursor: text; /* to make the cursor stay as a text cursor, not the hand */
+}
+.Radio { 
+	background-color:#ddff; 
+	border:1px solid #ddd; 
+}
+
+.button_blue a {
+	background: url(../img/button_blue.png) no-repeat;
+	width: 118px;
+	height: 20px;
+	position: relative;
+	float: right;
+	color: #FFF;
+	padding: 8px 0;
+	/* [disabled]margin: 6px 10px 0 268px; */
+	font: bold 14px Verdana, Geneva, sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button_blue a:hover {
+	background-position: 0 -36px;
+	text-decoration: underline;
+
+}
+
+
+.infoText {
+background-color:#F9FCFF;
+border:8px solid #0090E0;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#5F5F5F;
+padding:15px;
+}
+
+#inputCbm {
+	width:30px;
+}
+
+
+
+.input-select {
+    border:1px solid rgb(198,200,204);
+    width:180px;
+    padding:1px;
+    height:20px;
+
+}
+.os {
+position:relative;
+height:1.2em;
+}
+.os select {
+position:absolute;
+right:0;
+}
+
+.suggestion_list
+	{
+	background: white;
+	border: 1px solid;
+	padding: 4px;
+	}
+	
+	.suggestion_list ul
+	{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+	
+	.suggestion_list a
+	{
+	text-decoration: none;
+	color: navy;
+	}
+	
+	.suggestion_list .selected
+	{
+	background: navy;
+	color: white;
+	}
+	
+	.suggestion_list .selected a
+	{
+	color: white;
+	}
+
+	#autosuggest
+	{
+	display: none;
+	}
+	
+	  
+      ::-moz-selection
+   
+      {
+   
+      background:#6374AB;
+   
+      color:#fff;
+   
+      }
+   
+       
+   
+      ::selection
+   
+      {
+   
+      background:#6374AB;
+  
+      color:#fff;
+  
+      }
